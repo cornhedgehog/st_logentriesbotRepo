@@ -35,8 +35,6 @@ func main() {
         fmt.Println("response Headers:", resp.Header)
         body, _ := ioutil.ReadAll(resp.Body)
         fmt.Println("response Body:", string(body))
-
-
 }
 
   // func handler(w http.ResponseWriter, r *http.Request) {
